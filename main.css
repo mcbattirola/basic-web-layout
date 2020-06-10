@@ -20,7 +20,7 @@ h1.article-title {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     font-family: "Open sans";
     height: 100%;
     left: 0;
@@ -30,7 +30,7 @@ body {
 }
 
 header.app-header {
-    background-color: #ededed;
+    background-color: grey;
     box-sizing: border-box;
     font-family: "Poppins";
     font-weight: 600;
@@ -57,7 +57,7 @@ header.app-header {
 }
 
 img.logo {
-    width: 4rem;
+    width: 5rem;
 }
 
 .app-header ul {
@@ -89,11 +89,11 @@ img.logo {
 }
 
 .app-header li a:hover {
-    color: lightslategray;
+    color: #ffffff;
 }
 
 .app-header li a:hover::after {
-    background-color: red;
+    background-color: #f12500;
     bottom: 0;
     content: "";
     display: block;
@@ -104,7 +104,7 @@ img.logo {
 }
 
 nav.side-menu {
-    background-color: white;
+    background-color: #ffffff;
     bottom: 0;
     box-sizing: border-box;
     left: 0;
@@ -116,10 +116,10 @@ nav.side-menu {
 
 .side-menu-title {
     border-bottom: 0.0625rem solid #eee;
+    height: 1.25rem;
+    line-height: 1.25rem;
     margin: 0;
     margin-bottom: 0.75rem;
-    height: 20px;
-    line-height: 20px;
     position: relative;
 }
 
@@ -151,11 +151,11 @@ nav.side-menu {
 }
 
 .menu-subgroup a:hover {
-    color: tomato;
+    color: #ff6347;
 }
 
 .menu-subgroup a:hover {
-    border-left: 0.25rem solid red;
+    border-left: 0.25rem solid #f12500;
 }
 
 .menu-subgroup li {
@@ -163,7 +163,7 @@ nav.side-menu {
 }
 
 .menu-group-logout {
-    background-color: tomato;
+    background-color: #ff6347;
     border-radius: 0.4rem;
     bottom: 1rem;
     display: block;
@@ -188,10 +188,10 @@ nav.side-menu {
 }
 
 .menu-group-logout a:hover {
-    background-color: white;
-    border: 1px solid tomato;
+    background-color: #ffffff;
+    border: 1px solid #ff6347;
     border-radius: 0.4rem;
-    color: tomato;
+    color: #ff6347;
 }
 
 div.app-content-wrapper {
@@ -207,18 +207,15 @@ div.app-content-wrapper {
 }
 
 main.app-main {
-    background-color: grey;
+    background-color: #ededed;
     padding: 2rem;
 }
 
 footer.app-footer {
-    background-color: lightblue;
-    bottom: 0;
+    background-color: #ededed;
     font-size: 0.875rem;
     height: 3rem;
-    left: 0;
     line-height: 3rem;
     margin: 1rem 0;
-    right: 0;
     text-align: center;
 }
