@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Matheusis';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/icomoon.eot');
+    /* IE9 Compat Modes */
+    src: local('Matheusis regular'), local('Poppins-Regular'), url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/icomoon.woff') format('woff'), /* Modern Browsers */
+    url('fonts/icomoon.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/icomoon.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+[class|=icon] {
+    font-family: "Matheusis";
+}
+
+.icon-chat:before {
+    content: "\e96d";
+}
+
+.icon-home:before {
+    content: "\e902";
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.icon-configuration:before {
+    content: "\e992";
+}
+
+.icon-star:before {
+    content: "\e9d9";
+}
+
+.icon-exit:before {
+    content: "\ea14";
+}
