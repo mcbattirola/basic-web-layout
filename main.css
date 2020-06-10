@@ -120,6 +120,12 @@ nav.side-menu {
     margin-bottom: 0.75rem;
     height: 20px;
     line-height: 20px;
+    position: relative;
+}
+
+.side-menu-title span.menu-title-content {
+    position: absolute;
+    top: -0.25rem;
 }
 
 .side-menu ul {
